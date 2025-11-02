@@ -80,7 +80,8 @@
         display: flex;
     }
 
-    .desktopMenu {
+    .desktopMenu, .desktopMenuBtn {
         display: none;
     }
+
 }

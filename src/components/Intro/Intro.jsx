@@ -13,7 +13,9 @@ const Intro = () => {
             <p className="introPara">I am a skilled product designer & web developer with experience in creating <br /> visually appealing and user friendly digital products</p>
             <Link><button className="btn"><img className='btnImg' src={btnImg} alt="Hire me" />Hire Me</button></Link>
         </div>
-        <img src={bg} alt="profile image" className="bg" />
+        <div className="imgBg">
+          <img src={bg} alt="profile image" className="bg" />
+        </div>
     </section>
   )
 }
